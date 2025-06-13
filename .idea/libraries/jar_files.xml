@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jar files">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BusManagementSystem-main/BusManagementSystem/jar files/jasperreports.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BusManagementSystem-main/BusManagementSystem/jar files/mysql-connector.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BusManagementSystem-main/BusManagementSystem/jar files/fontawesomefx-8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BusManagementSystem-main/BusManagementSystem/jar files/ojdbc14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

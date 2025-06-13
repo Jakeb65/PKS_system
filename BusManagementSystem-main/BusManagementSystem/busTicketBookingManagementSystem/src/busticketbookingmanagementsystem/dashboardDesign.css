@@ -1,0 +1,155 @@
+
+.root, .label, .button, .text-field, .combo-box, .date-picker {
+    -fx-font-family: Arial, sans-serif;
+}
+
+.semi-top-form {
+    -fx-background-color: #f8fafd;
+    -fx-border-color: #e0e7ef;
+    -fx-border-width: 0 0 1.5px 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(74,144,226,0.05), 6, 0, 0, 3);
+}
+
+.top-form {
+    -fx-background-color: #e6eafe;
+    -fx-border-color: #e0e7ef;
+    -fx-border-width: 0 0 1.5px 0;
+}
+
+.close, .minimize {
+    -fx-text-fill: #64748b;
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+.close:hover { -fx-background-color: #fee2e2; -fx-text-fill: #ef4444; }
+.minimize:hover { -fx-background-color: #e0e7ef; }
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #334155;
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+    -fx-padding: 0 24px;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-effect: dropshadow(three-pass-box, rgba(74,144,226,0.04), 5, 0, 0, 2);
+}
+.nav-btn:hover {
+    -fx-background-color: #e0e7ef;
+    -fx-text-fill: #2563eb;
+}
+
+.logout-btn {
+    -fx-background-color: #fee2e2;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+    -fx-text-fill: #b91c1c;
+    -fx-font-weight: bold;
+    -fx-padding: 0;
+}
+.logout-btn:hover {
+    -fx-background-color: #fecaca;
+    -fx-text-fill: #991b1b;
+}
+
+.white-bg {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 18px;
+    -fx-effect: dropshadow(three-pass-box, rgba(16,23,42,0.07), 10, 0, 0, 3);
+}
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(16,23,42,0.10), 10, 0, 0, 5);
+}
+
+.card1 {
+    -fx-background-color: linear-gradient(to right, #a5b4fc, #c7d2fe);
+    -fx-background-radius: 15px;
+}
+.card2 {
+    -fx-background-color: linear-gradient(to right, #a7f3d0, #bbf7d0);
+    -fx-background-radius: 15px;
+}
+.card3 {
+    -fx-background-color: linear-gradient(to right, #fde68a, #fef9c3);
+    -fx-background-radius: 15px;
+}
+
+.textfield, .combobox, .date, .search {
+    -fx-border-color: #e0e7ef;
+    -fx-border-radius: 9px;
+    -fx-background-radius: 9px;
+    -fx-background-color: #f8fafc;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #334155;
+}
+.textfield:focused, .combobox:focused, .date:focused, .search:focused {
+    -fx-border-color: #6366f1;
+    -fx-background-color: #eef2ff;
+}
+
+.add-btn, .update-btn, .reset-btn, .delete-btn, .select-btn, .io-reset-btn {
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-padding: 8 20;
+    -fx-font-weight: bold;
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(74,144,226,0.09), 6, 0, 0, 2);
+}
+
+.add-btn { -fx-background-color: #22d3ee; }
+.update-btn { -fx-background-color: #6366f1; }
+.reset-btn { -fx-background-color: #a78bfa; }
+.delete-btn { -fx-background-color: #f87171; }
+.select-btn { -fx-background-color: #4ade80; -fx-text-fill: #14532d; }
+.io-reset-btn { -fx-background-color: #fde68a; -fx-text-fill: #92400e; }
+
+.add-btn:hover { -fx-background-color: #06b6d4; }
+.update-btn:hover { -fx-background-color: #4338ca; }
+.reset-btn:hover { -fx-background-color: #7c3aed; }
+.delete-btn:hover { -fx-background-color: #dc2626; }
+.select-btn:hover { -fx-background-color: #22c55e; }
+.io-reset-btn:hover { -fx-background-color: #facc15; }
+
+.table-view {
+    -fx-border-color: #e0e7ef;
+    -fx-padding: 0;
+    -fx-border-radius: 11px;
+    -fx-border-width: 1.5px;
+    -fx-background-radius: 11px;
+    -fx-background-color: #fff;
+}
+.table-view .column-header-background {
+    -fx-background-color: #e0e7ef;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #2563eb;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.label-info {
+    -fx-border-color: #6366f1;
+    -fx-border-radius: 7px;
+    -fx-padding: 8px;
+    -fx-font-size: 15px;
+    -fx-background-color: #f3f4f6;
+    -fx-text-fill: #2563eb;
+}
+
+.info-card {
+    -fx-background-color: linear-gradient(to bottom right, #dbeafe, #f1f5f9);
+    -fx-background-radius: 9px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(99,102,241,0.05), 7, 0, 0, 2);
+}
+
+.info-card Label {
+    -fx-text-fill: #334155;
+}

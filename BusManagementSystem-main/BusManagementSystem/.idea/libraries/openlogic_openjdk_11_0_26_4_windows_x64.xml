@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="openlogic-openjdk-11.0.26+4-windows-x64">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/openlogic-openjdk-11.0.26+4-windows-x64.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
